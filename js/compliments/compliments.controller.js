@@ -6,8 +6,8 @@
 
   function ComplimentsController(){
     var vm = this;
-    vm.comp = "you look nice."
-    console.log('hola, mundo!');
+    vm.compliments = data;
+    console.log(vm.compliments);
   }
 
 }());

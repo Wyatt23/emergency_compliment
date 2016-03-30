@@ -11,8 +11,10 @@
 </head>
 <body>
   <h1>Emergency Compliment</h1>
-  <div data-ng-controller='complimentsController as vm'>
-    {{vm.compliments}}
+  <div data-ng-controller="complimentsController as vm">
+    <div data-ng-repeat="compliment in vm.compliments">
+      {{compliment}}
+    </div>
   </div>
 </body>
 </html>
