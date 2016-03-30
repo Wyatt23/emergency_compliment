@@ -6,6 +6,8 @@
 
   function ComplimentsController(){
     var vm = this;
+    vm.compliments = data;
+    
   }
 
 }());
