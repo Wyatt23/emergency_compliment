@@ -6,6 +6,7 @@
 
   function ComplimentsController(){
     var vm = this;
+    vm.comp = "you look nice."
     console.log('hola, mundo!');
   }
 
